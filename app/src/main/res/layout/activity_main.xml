@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view_inic"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="#9C27B0"
+        />
+
+    <ImageView
+        android:id="@+id/image_infinito"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/baseline_all_inclusive_24"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/view_inic"
+        android:layout_alignParentTop="@+id/view_inic"
+        android:layout_margin="16dp"
+        />
+
+    <ImageView
+        android:id="@+id/image_carinha"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/baseline_insert_emoticon_24"
+        android:layout_alignBottom="@id/view_inic"
+        android:layout_alignTop="@id/view_inic"
+        android:layout_alignParentTop="@+id/view_inic"
+        android:layout_centerInParent="true"
+
+        />
+    <ImageView
+        android:id="@+id/image_sol"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/baseline_light_mode_24"
+        android:layout_alignBottom="@id/view_inic"
+        android:layout_alignTop="@id/view_inic"
+        android:layout_alignBaseline="@id/view_inic"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="6dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/text_saldacao"
+        android:layout_below="@+id/view_inic"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Olá, Kotlin"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:id="@+id/text_frase"
+        android:layout_below="@+id/text_saldacao"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="A liberdade não é um direito é uma conquista. Entao acorde motivado e durma satisfeito."
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        />
+    <View
+        android:id="@+id/view_risco"
+        android:layout_below="@+id/text_frase"
+        android:layout_width="200dp"
+        android:layout_height="5dp"
+        android:layout_centerHorizontal="true"
+        android:background="#9C27B0"
+        android:layout_marginTop="50dp"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_below="@+id/view_risco"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:text="NOVA FRASE"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#9C27B0"
+        android:layout_marginTop="180dp"
+        app:cornerRadius="10dp"
+        />
+
+
+</RelativeLayout>
