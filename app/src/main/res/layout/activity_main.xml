@@ -52,15 +52,14 @@
 
     <TextView
         android:id="@+id/text_saldacao"
+        android:layout_width="121dp"
+        android:layout_height="52dp"
         android:layout_below="@+id/view_inic"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:text="Olá, Kotlin"
-        android:textStyle="bold"
-        android:textSize="20sp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        />
+        android:text="Olá, usuário"
+        android:textSize="20sp"
+        android:textStyle="bold" />
     <TextView
         android:id="@+id/text_frase"
         android:layout_below="@+id/text_saldacao"
